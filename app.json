@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "airbnbsed",
+    "name": "AirBNB",
     "slug": "airbnbsed",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -12,16 +12,24 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.nainaryakath.airbnb"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e1b97030-6632-4ce8-be03-43fb982d9490"
+      }
     }
   }
 }
